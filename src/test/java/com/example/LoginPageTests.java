@@ -12,7 +12,7 @@ public class LoginPageTests extends BaseTests{
 	    LoginPage objLoginPage = new LoginPage(driver);
     	objLoginPage.login("admin$$", "admin123");
     	 
-    	// Verify Error Message
+    	// Verify Error Message 
     	 Assert.assertEquals("Invalid credentials",objLoginPage.getErrorMessage());
     
     }
